@@ -14,6 +14,4 @@ Then write the following code to the terminal and
 
 and the app works!
 
-Please help me improve this repo. Create Issues. Send Commit. Let's use this repo as a starter kit!
-
-I will update ReadMe soon. I'll give a more detailed explanation. Stay tuned!
+Please help me improve this repo. Create Issues. Send Commit. Let's use this repo as a 
