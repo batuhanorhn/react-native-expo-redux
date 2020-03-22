@@ -7,9 +7,9 @@
 
 ## Dependencies upgraded
 
--  Expo upgraded version 36
--  React Navigation upgraded version 4.3.1
--  React upgraded 16.9
--  Axios upgraded 0.19.2
--  React-redux upgraded 7.2
--  Redux upgraded 4.0.5
+-  Expo upgrade to version 36
+-  React Navigation upgrade to version 4.3.1
+-  React upgrade to 16.9
+-  Axios upgrade to 0.19.2
+-  React-redux upgrade to 7.2
+-  Redux upgrade to 4.0.5
