@@ -1,7 +1,7 @@
 # react-native-expo-redux
 React Native Expo Redux and Navigation BoilerPlate
 
-## Expo 36 SDK and others upgrade Coming Soon :) Please follow repo :)
+## Expo 36 SDK, React Navigation and other dependencies upgraded. Please check changcelog https://github.com/batuhanorhn/react-native-expo-redux/blob/master/changelog.md
 
 Hi guys!
 
