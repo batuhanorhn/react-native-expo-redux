@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 import { fetchDataAll } from '../../actions/app';
 
 class Home extends Component {
   componentDidMount() {
-    const { fetchDataAll, dispatch } = this.props;
+    const { fetchDataAll } = this.props;
     fetchDataAll()
   }
   render() {
@@ -14,7 +14,7 @@ class Home extends Component {
       console.log(data);
     }
     return(
-      <View style={{ flex: 1 }}>
+      <View style={styles.container}>
         <Text>
           Hi Guys!
         </Text>
@@ -22,6 +22,14 @@ class Home extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+});
 
 const mapStateToProps = state => {
   return{
@@ -32,4 +40,5 @@ const mapStateToProps = state => {
 const mapDispatchToProps = {
   fetchDataAll
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
