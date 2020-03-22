@@ -9,6 +9,6 @@ const dataFetch = data => ({
 export const fetchDataAll = () => dispatch => {
   axios.get('https://jsonplaceholder.typicode.com/users')
     .then((response) => {
-      dispatch(dataFetch(response));
+      dispatch(dataFetch(response.data));
     })
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Provider } from 'react-redux';
-import { createAppContainer, createStackNavigator } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import Store from './reduxStore'
 import HomePage from './pages/home';
@@ -15,9 +16,12 @@ const Router = createStackNavigator(
   {
     index: 0,
     initialRouteName: 'Home',
-    defaultNavigationOptions: {
-      header: null,
-    }
+    /** No Header METHOD 1  */
+    headerMode: 'none',
+    /** No Header METHOD 2  */
+     defaultNavigationOptions: {
+       // header: () => null,
+    },
   }
 );
 
