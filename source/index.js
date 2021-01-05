@@ -5,7 +5,7 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
 import Store from './reduxStore'
-import HomePage from './pages/home';
+import HomePage from './screens/home';
 
 const Router = createStackNavigator(
   {
@@ -39,7 +39,6 @@ export default (props) => {
 
 const styles = StyleSheet.create({
   flex: {
-    flex: 1,
-    backgroundColor:'red'
+    flex: 1
   }
 })
