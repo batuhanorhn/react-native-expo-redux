@@ -16,6 +16,6 @@ Then write the following code to the terminal and
 
 and the app works!
 
-Please help me improve this repo or any improvement. Create Issues. Send Pull Request. Let's use this repo!
+Please help me improve this repo or any improvement. Create Issues, send pull request. Let's use this repo!
 
 any questions contact me: batuhanorhan44@gmail.com
